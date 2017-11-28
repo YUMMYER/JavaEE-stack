@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/JDBC/JDBC.iml" filepath="$PROJECT_DIR$/JDBC/JDBC.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaEE-stack.iml" filepath="$PROJECT_DIR$/JavaEE-stack.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jsp/jsp.iml" filepath="$PROJECT_DIR$/jsp/jsp.iml" />
     </modules>
   </component>
 </project>
