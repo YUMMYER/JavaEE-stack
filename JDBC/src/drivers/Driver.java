@@ -17,7 +17,7 @@ public class Driver {
             Statement  statement = connection.createStatement();
             // 3. Execute SQL Query
 
-            ResultSet resultSet = statement.executeQuery("select * from employee");
+            ResultSet resultSet = statement.executeQuery("select * from employee WHERE id = 1");
             // 4. Process the result set
 
             while (resultSet.next()){
