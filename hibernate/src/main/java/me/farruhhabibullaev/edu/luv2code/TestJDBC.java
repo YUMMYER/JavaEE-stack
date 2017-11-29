@@ -88,6 +88,18 @@ public class TestJDBC {
 
             newSession.getTransaction().commit();
 
+            //Delete the objects
+
+            Session sessionNews = DbConfig.getSessionFactory().getCurrentSession();
+            sessionNews.beginTransaction();
+
+            Student student3 = sessionNews.get(Student.class,1);
+            sessionNews.delete(student3);
+
+            sessionNews.createQuery("delete from Student s where s.id = '2'").executeUpdate();
+
+            sessionNews.getTransaction().commit();
+
         } finally {
 
         }
