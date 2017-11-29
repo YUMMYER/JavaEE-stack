@@ -4,6 +4,8 @@ import org.hibernate.annotations.Entity;
 import org.hibernate.annotations.Table;
 
 import javax.persistence.Column;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
 @javax.persistence.Entity
@@ -11,6 +13,7 @@ import javax.persistence.Id;
 public class Student {
 
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id")
     private int id;
     @Column(name="first_name")

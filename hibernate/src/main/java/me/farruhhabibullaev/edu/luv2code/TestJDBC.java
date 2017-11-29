@@ -6,6 +6,7 @@ import org.hibernate.Session;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
+import java.util.List;
 
 public class TestJDBC {
     public static void main(String[] args) {
@@ -24,16 +25,41 @@ public class TestJDBC {
         Session session = DbConfig.getSessionFactory().getCurrentSession();
         try {
 
-            Student student = new Student("Farruh", "Habibullaev", "farruhzh@gmail.com");
+            //Create objects
+            Student student = new Student("Nodir", "Habibullaev", "farruhzh@gmail.com");
+            Student student1 = new Student("Salim","Jamalob","salim@gmail.com");
 
             session.beginTransaction();
 
             session.save(student);
+            session.save(student1);
 
             session.getTransaction().commit();
 
+            //Read objects
+
+            //Get another session
+
+            Session session1 = DbConfig.getSessionFactory().getCurrentSession();
+            session1.beginTransaction();
+            Student student2 = session1.get(Student.class, student1.getId());
+            System.out.println(student2);
+            session1.beginTransaction().commit();
+
+            System.out.println("Showing off all the students from the list");
+
+            Session listStudentSession = DbConfig.getSessionFactory().getCurrentSession();
+            listStudentSession.beginTransaction();
+            //Query the students with HQL
+            List<Student> studentList = listStudentSession.createQuery("from Student").list();
+            //Display the students
+            System.out.println(studentList);
+
+            //
+            listStudentSession.getTransaction().commit();
+
         } finally {
-            session.close();
+
         }
     }
 }
