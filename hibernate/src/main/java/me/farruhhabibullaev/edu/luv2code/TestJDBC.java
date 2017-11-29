@@ -55,7 +55,28 @@ public class TestJDBC {
             //Display the students
             System.out.println(studentList);
 
-            //
+            // with query operation
+
+            studentList = listStudentSession.createQuery("from Student s where s.firstName = 'nodir'").list();
+            System.out.println("Query operation and then result------------------");
+            System.out.println(studentList);
+
+
+            studentList  =  listStudentSession.createQuery("from Student s where s.firstName = 'Farruh' and s.lastName = 'Habibullaev'").list();
+            System.out.println("Query for Farruh");
+
+            System.out.println(studentList);
+
+            //Query for like
+
+            studentList = listStudentSession.createQuery("from Student s where s.firstName LIKE  '%farruh'").list();
+            System.out.println("Query for like");
+            System.out.println(studentList);
+
+            //Update the database
+
+            Student studentUpdate = listStudentSession.get(Student.class,1);
+            studentUpdate.setFirstName("Gulmira");
             listStudentSession.getTransaction().commit();
 
         } finally {
