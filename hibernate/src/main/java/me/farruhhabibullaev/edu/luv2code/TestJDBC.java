@@ -79,6 +79,15 @@ public class TestJDBC {
             studentUpdate.setFirstName("Gulmira");
             listStudentSession.getTransaction().commit();
 
+            Session newSession = DbConfig.getSessionFactory().getCurrentSession();
+
+            //Update all the students email
+            newSession.beginTransaction();
+
+            newSession.createQuery("update Student set email = 'a@gmail.com'").executeUpdate();
+
+            newSession.getTransaction().commit();
+
         } finally {
 
         }
