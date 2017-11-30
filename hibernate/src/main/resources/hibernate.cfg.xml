@@ -34,6 +34,6 @@
         <!--<mapping class="me.farruhhabibullaev.edu.javatpoint.inheritence.perconcreteclassannatation.Employees"/>-->
         <!--<mapping class="me.farruhhabibullaev.edu.javatpoint.inheritence.perconcreteclassannatation.RegularEmployee"/>-->
         <!--<mapping resource="PerSubEmployee.hbm.xml"></mapping>-->
-        <mapping resource="List.hbm.xml"/>
+        <mapping resource="OneToManyList.hbm.xml"/>
     </session-factory>
 </hibernate-configuration>

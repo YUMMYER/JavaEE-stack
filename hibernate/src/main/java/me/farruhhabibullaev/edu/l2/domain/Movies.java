@@ -10,14 +10,18 @@ public class Movies {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     public int id;
+
     @Enumerated(EnumType.STRING)
     public Category category;
+
     @Column(name = "name")
     public String name;
 
     public List<String> comments;
     public List<Actor> actors;
+
     @Column(name = "image")
+    @Lob
     public byte [] image;
 
     public Movies(){
