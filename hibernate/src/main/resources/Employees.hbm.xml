@@ -3,7 +3,7 @@
         "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
         "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
 <hibernate-mapping>
-    <class name="me.farruhhabibullaev.edu.inheritence.perhierarchy.Employees"
+    <class name="me.farruhhabibullaev.edu.javatpoint.inheritence.perhierarchy.Employees"
            table="emp123" discriminator-value="emp">
         <id name="id">
             <generator class="increment"/>
@@ -13,12 +13,12 @@
         <property name="name"/>
 
 
-        <subclass name="me.farruhhabibullaev.edu.inheritence.perhierarchy.RegularEmployee" discriminator-value="emp_reg">
+        <subclass name="me.farruhhabibullaev.edu.javatpoint.inheritence.perhierarchy.RegularEmployee" discriminator-value="emp_reg">
             <property name="salary"/>
             <property name="bonus"/>
         </subclass>
 
-        <subclass name="me.farruhhabibullaev.edu.inheritence.perhierarchy.ContractEmployee" discriminator-value="emp_contr">
+        <subclass name="me.farruhhabibullaev.edu.javatpoint.inheritence.perhierarchy.ContractEmployee" discriminator-value="emp_contr">
             <property name="payPerHour"/>
             <property name="contractDuration"/>
         </subclass>

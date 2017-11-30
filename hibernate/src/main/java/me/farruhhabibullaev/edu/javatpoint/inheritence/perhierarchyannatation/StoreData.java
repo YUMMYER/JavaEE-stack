@@ -1,4 +1,4 @@
-package me.farruhhabibullaev.edu.inheritence.perhierarchyannatation;
+package me.farruhhabibullaev.edu.javatpoint.inheritence.perhierarchyannatation;
 
 import org.hibernate.Session;
 import org.hibernate.Transaction;

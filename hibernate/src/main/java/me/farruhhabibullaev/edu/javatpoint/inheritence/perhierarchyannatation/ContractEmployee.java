@@ -1,4 +1,4 @@
-package me.farruhhabibullaev.edu.inheritence.perhierarchyannatation;
+package me.farruhhabibullaev.edu.javatpoint.inheritence.perhierarchyannatation;
 
 import javax.persistence.Column;
 import javax.persistence.DiscriminatorValue;

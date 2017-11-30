@@ -1,18 +1,8 @@
-package me.farruhhabibullaev.edu.inheritence.perhierarchyannatation;
+package me.farruhhabibullaev.edu.javatpoint.inheritence.perhierarchy;
 
-import javax.persistence.Column;
-import javax.persistence.DiscriminatorValue;
-import javax.persistence.Entity;
-
-@Entity
-@DiscriminatorValue(
-        value = "regular"
-)
 public class RegularEmployee extends Employees {
 
-    @Column(name = "salary")
     private float salary;
-    @Column(name = "bonus")
     private int bonus;
 
     public RegularEmployee(){

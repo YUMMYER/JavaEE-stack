@@ -1,16 +1,16 @@
-package me.farruhhabibullaev.edu.inheritence.perhierarchyannatation;
+package me.farruhhabibullaev.edu.javatpoint.inheritence.perhierarchyannatation;
 
 import javax.persistence.*;
 
 @Entity
-@Table(name = "empttable")
+@Table(name = "employeetable")
 @Inheritance(strategy = InheritanceType.SINGLE_TABLE)
 @DiscriminatorColumn(name = "type",  discriminatorType = DiscriminatorType.STRING)
 @DiscriminatorValue(value = "employee")
 public class Employees {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id")
     private int id;
     @Column(name = "name")

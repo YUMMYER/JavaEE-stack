@@ -1,4 +1,4 @@
-package me.farruhhabibullaev.edu.inheritence.perhierarchy;
+package me.farruhhabibullaev.edu.javatpoint.inheritence.perhierarchy;
 
 public class ContractEmployee extends Employees {
 

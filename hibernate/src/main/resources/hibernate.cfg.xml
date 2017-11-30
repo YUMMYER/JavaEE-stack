@@ -23,10 +23,10 @@
         <!-- Set the current session context -->
         <property name="current_session_context_class">thread</property>
 
-        <mapping class="me.farruhhabibullaev.edu.inheritence.perhierarchyannatation.Employees"/>
-        <mapping class="me.farruhhabibullaev.edu.inheritence.perhierarchyannatation.RegularEmployee"/>
-        <mapping class="me.farruhhabibullaev.edu.inheritence.perhierarchyannatation.ContractEmployee"/>
-
+        <!--<mapping class="me.farruhhabibullaev.edu.javatpoint.inheritence.perhierarchyannatation.Employees"/>-->
+        <!--<mapping class="me.farruhhabibullaev.edu.javatpoint.inheritence.perhierarchyannatation.RegularEmployee"/>-->
+        <!--<mapping class="me.farruhhabibullaev.edu.javatpoint.inheritence.perhierarchyannatation.ContractEmployee"/>-->
+        <mapping resource="Payment.hbm.xml"/>
         <!--<mapping resource="Employee.hbm.xml"/>-->
         <!--<mapping resource="User.hbm.xml"/>-->
         <!--<mapping resource="Employees.hbm.xml"/>-->
