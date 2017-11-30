@@ -33,6 +33,7 @@
         <!--<mapping class="me.farruhhabibullaev.edu.javatpoint.inheritence.perconcreteclassannatation.ContractEmployee"/>-->
         <!--<mapping class="me.farruhhabibullaev.edu.javatpoint.inheritence.perconcreteclassannatation.Employees"/>-->
         <!--<mapping class="me.farruhhabibullaev.edu.javatpoint.inheritence.perconcreteclassannatation.RegularEmployee"/>-->
-        <mapping resource="PerSubEmployee.hbm.xml"></mapping>
+        <!--<mapping resource="PerSubEmployee.hbm.xml"></mapping>-->
+        <mapping resource="List.hbm.xml"/>
     </session-factory>
 </hibernate-configuration>

@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="me.farruhhabibullaev.edu.javatpoint.collections.listonetomany.Question" table="questions">
+        <id name="id">
+            <generator class="increment"></generator>
+        </id>
+
+        <property name="qname" type="java.lang.String"/>
+
+        <list name="answers" cascade="all">
+            <key column="eid"/>
+            <index type="int" column="index"/>
+            <one-to-many class="me.farruhhabibullaev.edu.javatpoint.collections.listonetomany.Answer"/>
+        </list>
+
+    </class>
+
+    <class name="me.farruhhabibullaev.edu.javatpoint.collections.listonetomany.Answer" table="answers">
+
+        <id name="id">
+            <generator class="increment"/>
+        </id>
+        <property name="answername" type="java.lang.String"/>
+        <property name="postedBy" type="string"/>
+    </class>
+</hibernate-mapping>
