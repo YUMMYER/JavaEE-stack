@@ -18,11 +18,13 @@ public class Movies {
     public String name;
 
     public List<String> comments;
+
     public List<Actor> actors;
 
-    @Column(name = "image")
     @Lob
+    @Column(name = "image")
     public byte [] image;
+
 
     public Movies(){
 

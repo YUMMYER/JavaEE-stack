@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="me.farruhhabibullaev.edu.l2.domain.Movies" table="movies">
+        <id name="id">
+            <generator class="increment"/>
+        </id>
+
+        <property name="category"  column="category" >
+            <column name="category"/>
+            <type name="org.hibernate.type.EnumType">
+                <param name="me.farruhhabibullaev.edu.l2.domain.Category"/>
+            </type>
+        </property>
+
+
+    </class>
+</hibernate-mapping>
