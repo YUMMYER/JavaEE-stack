@@ -26,10 +26,13 @@
         <!--<mapping class="me.farruhhabibullaev.edu.javatpoint.inheritence.perhierarchyannatation.Employees"/>-->
         <!--<mapping class="me.farruhhabibullaev.edu.javatpoint.inheritence.perhierarchyannatation.RegularEmployee"/>-->
         <!--<mapping class="me.farruhhabibullaev.edu.javatpoint.inheritence.perhierarchyannatation.ContractEmployee"/>-->
-        <mapping resource="Payment.hbm.xml"/>
+        <!--<mapping resource="Payment.hbm.xml"/>-->
         <!--<mapping resource="Employee.hbm.xml"/>-->
         <!--<mapping resource="User.hbm.xml"/>-->
         <!--<mapping resource="Employees.hbm.xml"/>-->
-
+        <!--<mapping class="me.farruhhabibullaev.edu.javatpoint.inheritence.perconcreteclassannatation.ContractEmployee"/>-->
+        <!--<mapping class="me.farruhhabibullaev.edu.javatpoint.inheritence.perconcreteclassannatation.Employees"/>-->
+        <!--<mapping class="me.farruhhabibullaev.edu.javatpoint.inheritence.perconcreteclassannatation.RegularEmployee"/>-->
+        <mapping resource="PerSubEmployee.hbm.xml"></mapping>
     </session-factory>
 </hibernate-configuration>
