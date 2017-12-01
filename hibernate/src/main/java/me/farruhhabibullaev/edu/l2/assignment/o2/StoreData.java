@@ -25,7 +25,7 @@ public class StoreData {
         Product product1 = new Product();
         product1.setName("Hiberate");
         product1.setDescription("Hibernate is the best");
-        
+
 
         List<Product> products = new ArrayList<>();
         products.add(product);

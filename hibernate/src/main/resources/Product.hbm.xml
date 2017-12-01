@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="me.farruhhabibullaev.edu.l2.assignment.o3.Product" table="product">
+        <id name="id">
+            <generator class="increment"/>
+        </id>
+        <property name="name" type="string"/>
+        <property name="description" type="string"/>
+
+        <union-subclass name="me.farruhhabibullaev.edu.l2.assignment.o3.CD" table="cd">
+            <property name="artist"/>
+        </union-subclass>
+
+        <union-subclass name="me.farruhhabibullaev.edu.l2.assignment.o3.DVD" table="dvd">
+            <property name="gentre"/>
+        </union-subclass>
+        <union-subclass name="me.farruhhabibullaev.edu.l2.assignment.o3.Book" table="book">
+            <property name="title"/>
+        </union-subclass>
+
+
+    </class>
+</hibernate-mapping>
