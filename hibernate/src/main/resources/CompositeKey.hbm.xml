@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="me.farruhhabibullaev.edu.l2.compositekey.InvoiceDetail" table="invoicedetail">
+        <composite-id name="key" class="me.farruhhabibullaev.edu.l2.compositekey.InvoiceId">
+            <key-property name="invoiceNo" type="java.lang.Long"/>
+            <key-property name="line" type="java.lang.String"/>
+        </composite-id>
+        
+    </class>
+</hibernate-mapping>

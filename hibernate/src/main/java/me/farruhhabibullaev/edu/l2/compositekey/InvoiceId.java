@@ -4,13 +4,13 @@ import java.io.Serializable;
 
 public class InvoiceId implements Serializable {
 
-    public static final long serialVerionUID = 1L;
+    public static final long serialVersionUID = 1L;
 
     private long invoiceNo;
     private String line;
 
     public static long getSerialVerionUID() {
-        return serialVerionUID;
+        return serialVersionUID;
     }
 
     public long getInvoiceNo() {

@@ -35,6 +35,6 @@
         <!--<mapping class="me.farruhhabibullaev.edu.javatpoint.inheritence.perconcreteclassannatation.RegularEmployee"/>-->
         <!--<mapping resource="PerSubEmployee.hbm.xml"></mapping>-->
         <!--<mapping resource="OneToManyList.hbm.xml"/>-->
-        <mapping class="me.farruhhabibullaev.edu.l2.compositekey.StudentEntity"/>
+        <mapping class="me.farruhhabibullaev.edu.l2.assignment.o2.Order"/>
     </session-factory>
 </hibernate-configuration>

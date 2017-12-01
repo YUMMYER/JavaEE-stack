@@ -7,6 +7,9 @@ import org.hibernate.Session;
 import org.hibernate.Transaction;
 import org.hibernate.cfg.Configuration;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class StoreData {
     public static void main(String[] args) {
         Configuration cfg = new Configuration();
@@ -14,15 +17,22 @@ public class StoreData {
 
         Transaction t = session.beginTransaction();
 
-        RegistrationId registrationId = new RegistrationId();
-        registrationId.setDepartmentId("12");
-        registrationId.setStudentId("234");
+        List<Address> ads = new ArrayList<>();
+        Address address = new Address();
+        address.setState("New York");
+        address.setZip("553434");
 
-        StudentEntity studentEntity = new StudentEntity();
-        studentEntity.setRegistrationId(registrationId);
-        studentEntity.setStudentName("farruh");
+        Address address1 = new Address();
+        address1.setZip("45345");
+        address1.setState("York Bem");
 
-        session.persist(studentEntity);
+        ads.add(address);
+        ads.add(address1);
+
+        Student student = new Student();
+        student.setAddress(ads);
+        student.setId(12);
+        session.save(student);
         t.commit();
         session.close();
         System.out.println("success");
