@@ -37,9 +37,19 @@
         <!--<mapping resource="OneToManyList.hbm.xml"/>-->
         <!--<mapping class="me.farruhhabibullaev.edu.l2.assignment.o2.Order"/>-->
 
-        <mapping class="me.farruhhabibullaev.edu.l2.assignment.o3.Book"></mapping>
-        <mapping class="me.farruhhabibullaev.edu.l2.assignment.o3.DVD"></mapping>
-        <mapping class="me.farruhhabibullaev.edu.l2.assignment.o3.Product"></mapping>
-        <mapping class="me.farruhhabibullaev.edu.l2.assignment.o3.CD"></mapping>
+        <!--<mapping class="me.farruhhabibullaev.edu.l2.assignment.o3.Book"></mapping>-->
+        <!--<mapping class="me.farruhhabibullaev.edu.l2.assignment.o3.DVD"></mapping>-->
+        <!--<mapping class="me.farruhhabibullaev.edu.l2.assignment.o3.Product"></mapping>-->
+        <!--<mapping class="me.farruhhabibullaev.edu.l2.assignment.o3.CD"></mapping>-->
+
+        <!--<mapping class="me.farruhhabibullaev.edu.l3.lecture.onetoonebidirectional2.Person"/>-->
+        <!--<mapping class="me.farruhhabibullaev.edu.l3.lecture.onetoonebidirectional2.PersonAddress"/>-->
+        <!--&lt;!&ndash;<mapping class="me.farruhhabibullaev.edu.l3.lecture.manytooneunidirectionaljointable.Person"/>&ndash;&gt;-->
+        <!--<mapping class="me.farruhhabibullaev.edu.l3.lecture.manytooneunidirectionaljointable.PersonAddress"/>-->
+
+        <mapping class="me.farruhhabibullaev.edu.l3.o1.f.Department"/>
+        <mapping class="me.farruhhabibullaev.edu.l3.o1.f.Employee"/>
+        <mapping class="me.farruhhabibullaev.edu.l3.o1.f.Office"/>
+
     </session-factory>
 </hibernate-configuration>

@@ -15,16 +15,16 @@ public class StoreData {
 
         Transaction t = session.beginTransaction();
 
-        Address address = new Address();
-        address.setCity("Namangan");
-        address.setStreet("Oybek");
-        address.setState("Uzbekistan");
-        address.setZip("52557");
-
-        Driver driver = new Driver();
-        driver.setName("Farruh");
-        driver.setAddress(address);
-        session.persist(driver);
+//        PersonAddress address = new PersonAddress();
+//        address.setCity("Namangan");
+//        address.setStreet("Oybek");
+//        address.setState("Uzbekistan");
+//        address.setZip("52557");
+//
+//        Driver driver = new Driver();
+//        driver.setName("Farruh");
+//        driver.setPersonAddress(address);
+//        session.persist(driver);
 
         t.commit();
         session.close();
