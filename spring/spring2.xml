@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!--<bean id="traingle" class="main.java.spring.farruhhabibullaev.edu.Traingle">-->
+    <!--&lt;!&ndash;<property name="type" value="Eqauliter"></property>&ndash;&gt;-->
+    <!--<constructor-arg value="Equalizer"/>-->
+    <!--<constructor-arg value="12" type="int"/>-->
+    <!--</bean>-->
+
+    <!--<bean id="traingle" class="main.java.spring.farruhhabibullaev.edu.Traingle2" name="traingle-name">-->
+        <!--&lt;!&ndash;<property name="type" value="Eqauliter"></property>&ndash;&gt;-->
+        <!--<property name="a" ref="zeroPoint"/>-->
+        <!--<property name="b">-->
+            <!--<bean id="Point2" class="main.java.spring.farruhhabibullaev.edu.Point">-->
+                <!--<property name="x" value="20"/>-->
+                <!--<property name="y" value="20"/>-->
+            <!--</bean>-->
+        <!--</property>-->
+        <!--<property name="c">-->
+            <!--<bean id="Point3" class="main.java.spring.farruhhabibullaev.edu.Point">-->
+                <!--<property name="x" value="0"/>-->
+                <!--<property name="y" value="20"/>-->
+            <!--</bean>-->
+        <!--</property>-->
+    <!--</bean>-->
+
+    <!--<bean id="zeroPoint" class="main.java.spring.farruhhabibullaev.edu.Point">-->
+        <!--<property name="x" value="0"/>-->
+        <!--<property name="y" value="0"/>-->
+    <!--</bean>-->
+
+    <!--<alias name="traingle" alias="traingle-alias"/>-->
+
+</beans>
