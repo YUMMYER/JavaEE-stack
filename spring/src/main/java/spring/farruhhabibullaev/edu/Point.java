@@ -1,4 +1,4 @@
-package main.java.spring.farruhhabibullaev.edu;
+package spring.farruhhabibullaev.edu;
 
 public class Point {
     private int x;

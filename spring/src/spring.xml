@@ -9,28 +9,24 @@
     <!--<constructor-arg value="12" type="int"/>-->
     <!--</bean>-->
 
-    <bean id="traingle" class="main.java.spring.farruhhabibullaev.edu.Traingle2">
+    <bean id="traingle" class="spring.farruhhabibullaev.edu.Traingle2">
         <!--<property name="type" value="Eqauliter"></property>-->
-        <property name="points">
-            <list>
-                <ref bean="zeroPoint"/>
-                <ref bean="Point2"/>
-                <ref bean="Point3"/>
-            </list>
-        </property>
+        <property name="a" ref="Point3"/>
+        <property name="b" ref="Point2"/>
+        <property name="c" ref="zeroPoint"/>
     </bean>
 
-    <bean id="zeroPoint" class="main.java.spring.farruhhabibullaev.edu.Point">
+    <bean id="zeroPoint" class="spring.farruhhabibullaev.edu.Point">
         <property name="x" value="0"/>
         <property name="y" value="0"/>
     </bean>
 
-    <bean id="Point2" class="main.java.spring.farruhhabibullaev.edu.Point">
+    <bean id="Point2" class="spring.farruhhabibullaev.edu.Point">
         <property name="x" value="20"/>
         <property name="y" value="20"/>
     </bean>
 
-    <bean id="Point3" class="main.java.spring.farruhhabibullaev.edu.Point">
+    <bean id="Point3" class="spring.farruhhabibullaev.edu.Point">
         <property name="x" value="0"/>
         <property name="y" value="20"/>
     </bean>
