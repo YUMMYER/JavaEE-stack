@@ -1,4 +1,4 @@
-package spring.farruhhabibullaev.edu;
+package spring.farruhhabibullaev.edu.IDandInjection;
 
 
 import org.springframework.context.ApplicationContext;

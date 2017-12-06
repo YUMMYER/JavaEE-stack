@@ -1,10 +1,4 @@
-package spring.farruhhabibullaev.edu;
-
-import org.springframework.beans.BeansException;
-import org.springframework.context.ApplicationContext;
-import org.springframework.context.ApplicationContextAware;
-
-import java.util.List;
+package spring.farruhhabibullaev.edu.IDandInjection;
 
 public class Traingle2 {
 
