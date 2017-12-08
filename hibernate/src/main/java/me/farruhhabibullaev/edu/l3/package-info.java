@@ -1,1 +1,0 @@
-package me.farruhhabibullaev.edu.l3;
