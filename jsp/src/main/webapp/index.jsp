@@ -1,4 +1,5 @@
 <%@ page import="java.util.Date" %>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <body>
 <h2>Hello World of Maven!</h2>
@@ -14,5 +15,8 @@
 }%>
 
 Convert it into lower case: <%=toLowerCase("Hello World") %>
+
+Request object <%= request.getHeader("User-Agent") %>
+locale: <%= request.getLocale() %>
 </body>
 </html>

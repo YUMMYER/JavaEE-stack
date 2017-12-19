@@ -8,11 +8,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="jsp" />
         <module name="servlets" />
+        <module name="webapp" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="jsp" target="1.5" />
       <module name="servlets" target="1.5" />
+      <module name="webapp" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
