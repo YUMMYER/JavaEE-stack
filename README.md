@@ -3,3 +3,11 @@ A stack of JavaEE demo projects including JDBC, JSP, Servlet, Hibernate, Spring 
 
 1. [JDBC (Java Database Connectivity)](https://github.com/farruhx/JavaEE-stack/tree/master/JDBC)
 2. [Hibernate](https://github.com/farruhx/JavaEE-stack/tree/master/hibernate) 
+
+# Note for Myself
+## Servlet
+
+To forward requests
+- getRequestDispatcher(url).forward(request,response);
+To redirect responses
+- response.sendRedirect(url);
