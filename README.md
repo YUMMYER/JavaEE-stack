@@ -7,7 +7,8 @@ A stack of JavaEE demo projects including JDBC, JSP, Servlet, Hibernate, Spring 
 # Note for Myself
 ## Servlet
 
-To forward requests
-- getRequestDispatcher(url).forward(request,response);
-To redirect responses
-- response.sendRedirect(url);
+
+1. To forward requests
+-getRequestDispatcher(url).forward(request,response);
+2. To redirect responses;
+-response.sendRedirect(url);
