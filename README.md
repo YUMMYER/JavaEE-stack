@@ -7,19 +7,21 @@ A stack of JavaEE demo projects including JDBC, JSP, Servlet, Hibernate, Spring 
 # Note for myself
 ## Servlets
 
-
-1. To forward requests:
-- getRequestDispatcher(url).forward(request,response)
-2. To redirect responses:
-- response.sendRedirect(url)
-3. Context Param Elements:
-`<context-param>
-    <param-name>farruhx</param-name>
-    <param-value>hxls</param-value>
-</context-param>`
-.getServletContext().getInitParameter()
-4. Specific one inside servlet
-`<init-param>
-</init-param>`
-.getServletConfig().getInitParameter()
+<pre>
+    To forward requests:
+    - getRequestDispatcher(url).forward(request,response)
+    To redirect responses:
+    - response.sendRedirect(url)
+</pre>  
+ 
+Context Param Elements:
+  `<context-param>
+        <param-name>farruhx</param-name>
+        <param-value>hxls</param-value>
+  </context-param>`
+  .getServletContext().getInitParameter()
+Specific one inside servlet
+    `<init-param>
+    </init-param>`
+  .getServletConfig().getInitParameter()
 
