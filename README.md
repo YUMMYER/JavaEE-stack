@@ -13,15 +13,14 @@ A stack of JavaEE demo projects including JDBC, JSP, Servlet, Hibernate, Spring 
     To redirect responses:
     - response.sendRedirect(url)
 </pre>  
- 
+
 Context Param Elements:
-  `<context-param>
+  <context-param>
         <param-name>farruhx</param-name>
         <param-value>hxls</param-value>
-  </context-param>`
+  </context-param>
   .getServletContext().getInitParameter()
 Specific one inside servlet
-    `<init-param>
-    </init-param>`
+    <init-param> </init-param>
   .getServletConfig().getInitParameter()
 
