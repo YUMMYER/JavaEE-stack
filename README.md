@@ -4,11 +4,22 @@ A stack of JavaEE demo projects including JDBC, JSP, Servlet, Hibernate, Spring 
 1. [JDBC (Java Database Connectivity)](https://github.com/farruhx/JavaEE-stack/tree/master/JDBC)
 2. [Hibernate](https://github.com/farruhx/JavaEE-stack/tree/master/hibernate) 
 
-# Note for Myself
-## Servlet
+# Note for myself
+## Servlets
 
 
-1. To forward requests
--getRequestDispatcher(url).forward(request,response);
-2. To redirect responses;
--response.sendRedirect(url);
+1. To forward requests:
+- getRequestDispatcher(url).forward(request,response)
+2. To redirect responses:
+- response.sendRedirect(url)
+3. Context Param Elements:
+`<context-param>
+    <param-name>farruhx</param-name>
+    <param-value>hxls</param-value>
+</context-param>`
+.getServletContext().getInitParameter()
+4. Specific one inside servlet
+`<init-param>
+</init-param>`
+.getServletConfig().getInitParameter()
+
