@@ -14,13 +14,15 @@ A stack of JavaEE demo projects including JDBC, JSP, Servlet, Hibernate, Spring 
     - response.sendRedirect(url)
 </pre>  
 
-Context Param Elements:
-  <context-param>
+1. Context Param Elements;
+
+ ` <context-param>
         <param-name>farruhx</param-name>
         <param-value>hxls</param-value>
-  </context-param>
+  </context-param>`
   .getServletContext().getInitParameter()
-Specific one inside servlet
-    <init-param> </init-param>
+  
+2. Specific one inside servlet
+   ` <init-param> </init-param>`
   .getServletConfig().getInitParameter()
 
