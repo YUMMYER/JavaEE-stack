@@ -25,4 +25,13 @@ A stack of JavaEE demo projects including JDBC, JSP, Servlet, Hibernate, Spring 
 2. Specific one inside servlet
    ` <init-param> </init-param>`
   .getServletConfig().getInitParameter()
+  
+<pre>
+    To use EL
+    - ${attribute.property}
+    <%@ %> directive -  To set conditions that apply to the entire JSP.
+    <% %> scriplet - To insert a block of java statement.
+    <%= %> expression - To display the string value of an expression.
+    
+</pre>
 
