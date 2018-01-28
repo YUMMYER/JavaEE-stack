@@ -32,25 +32,43 @@ A stack of JavaEE demo projects including JDBC, JSP, Servlet, Hibernate, Spring 
     <%@ %> directive -  To set conditions that apply to the entire JSP.
     <% %> scriplet - To insert a block of java statement.
     <%= %> expression - To display the string value of an expression.
+    
     To use Session
      - HTTP is stateless protocol
      - FTP is stateful protocol
+    
      To get the session
      - HttpSession session = request.getSession();
      session.setAttribute("product",product);
+    
      To remove an object
      - session.removeAttribute("code")
+    
      General methods of session object
      -getAttributeNames();
      -getId();
      -isNew();
      -setMaxInactiveInterval(in seconds);
      -invalidate();
+    
      Thread safe
      -final Object lock = request.getSession().getId().intern();
      synchronized(lock){
         cart = (Cart) session.getAttribute("cart");
      }
+     
+     To create cookie
+     - Cookie(name, value);
+     - setMaxAge(seconds);
+     - setPath(path)
+     - getName();
+     - setName();
+     - addCookie(cookie);
+     - getCookies();
+     ex. response.addCookie(c);
+     
+     
+     
      
 </pre>
 
