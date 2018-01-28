@@ -2,6 +2,7 @@
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/jsp" />
+    <file type="web" url="file://$PROJECT_DIR$/musicStore" />
     <file type="web" url="file://$PROJECT_DIR$/servlets" />
     <file type="web" url="file://$PROJECT_DIR$/webapp" />
     <type id="Spring" />
@@ -12,6 +13,7 @@
         <option value="$PROJECT_DIR$/jsp/pom.xml" />
         <option value="$PROJECT_DIR$/servlets/pom.xml" />
         <option value="$PROJECT_DIR$/webapp/pom.xml" />
+        <option value="$PROJECT_DIR$/musicStore/pom.xml" />
       </list>
     </option>
   </component>

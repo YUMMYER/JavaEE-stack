@@ -7,12 +7,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="jsp" />
+        <module name="musicStore" />
         <module name="servlets" />
         <module name="webapp" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="jsp" target="1.5" />
+      <module name="musicStore" target="1.5" />
       <module name="servlets" target="1.5" />
       <module name="webapp" target="1.5" />
     </bytecodeTargetLevel>
