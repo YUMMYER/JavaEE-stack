@@ -25,7 +25,7 @@ public class DownloadServlet extends HttpServlet {
         }
 
         String url = "/index.jsp";
-        if (action.equals("viewAblums")) {
+        if (action.equals("viewAlbums")) {
             url = "/index.jsp";
         } else if (action.equals("checkUser")) {
             url = checkUser(req, resp);
@@ -75,11 +75,13 @@ public class DownloadServlet extends HttpServlet {
     }
 
     private String checkUser(HttpServletRequest request, HttpServletResponse response) {
+
         String productCode = request.getParameter("productCode");
+
         HttpSession session = request.getSession();
         session.setAttribute("productCode", productCode);
-
         User user = (User) session.getAttribute("user");
+
         String url;
 
         if (user == null) {

@@ -67,8 +67,26 @@ A stack of JavaEE demo projects including JDBC, JSP, Servlet, Hibernate, Spring 
      - getCookies();
      ex. response.addCookie(c);
      
+     To disable EL for single page
+     <%a page isELIgnored = "true" %>
      
+     For the entire application(web.xml file)
+    
+     <jsp-config>
+        <jsp-property-group>
+            <url-pattern>*.jsp</url-pattern>
+            <el-ignored>true</el-ignored>
+        <jsp-property-group>
+     </jsp-config>
      
+     To disable scripting
      
+     <jsp-config>
+        <jsp-property-group>
+            <url-pattern>*.jsp</url-pattern>
+            <scripting-invalid>true</script-invalid>
+        </jsp-property-group>
+     <jsp-config>
+         
 </pre>
 
