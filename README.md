@@ -86,7 +86,6 @@ A stack of JavaEE demo projects including JDBC, JSP, Servlet, Hibernate, Spring 
             <url-pattern>*.jsp</url-pattern>
             <scripting-invalid>true</script-invalid>
         </jsp-property-group>
-     <jsp-config>
-         
+     <jsp-config>    
 </pre>
 
