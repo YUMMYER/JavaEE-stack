@@ -21,15 +21,7 @@
         <servlet-name>emailListServlet</servlet-name>
         <url-pattern>/emailList</url-pattern>
     </servlet-mapping>
-    <!--<servlet>-->
-        <!--<servlet-name>serveltTest</servlet-name>-->
-        <!--<servlet-class>tuts.farruh.controller.TestServelt</servlet-class>-->
-    <!--</servlet>-->
-    <!--<servlet-mapping>-->
-        <!--<servlet-name>serveltTest</servlet-name>-->
-        <!--<url-pattern>/servletTest</url-pattern>-->
-    <!--</servlet-mapping>-->
-    
+
   <session-config>
       <session-timeout>30</session-timeout>
   </session-config>
