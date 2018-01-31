@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="sqlgetaway:war">
+    <output-path>$PROJECT_DIR$/jdbc/target</output-path>
+    <root id="archive" name="sqlgetaway.war">
+      <element id="artifact" artifact-name="sqlgetaway:war exploded" />
+    </root>
+  </artifact>
+</component>

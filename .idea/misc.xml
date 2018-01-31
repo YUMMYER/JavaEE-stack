@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/cartapp" />
+    <file type="web" url="file://$PROJECT_DIR$/educartappcom" />
+    <file type="web" url="file://$PROJECT_DIR$/jdbc" />
     <file type="web" url="file://$PROJECT_DIR$/jsp" />
     <file type="web" url="file://$PROJECT_DIR$/musicStore" />
     <file type="web" url="file://$PROJECT_DIR$/servlets" />
+    <file type="web" url="file://$PROJECT_DIR$/sqlgetway" />
     <file type="web" url="file://$PROJECT_DIR$/webapp" />
     <type id="Spring" />
   </component>
@@ -14,6 +18,9 @@
         <option value="$PROJECT_DIR$/servlets/pom.xml" />
         <option value="$PROJECT_DIR$/webapp/pom.xml" />
         <option value="$PROJECT_DIR$/musicStore/pom.xml" />
+        <option value="$PROJECT_DIR$/cartapp/pom.xml" />
+        <option value="$PROJECT_DIR$/educartappcom/pom.xml" />
+        <option value="$PROJECT_DIR$/sqlgetway/pom.xml" />
       </list>
     </option>
   </component>

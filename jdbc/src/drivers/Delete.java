@@ -13,6 +13,8 @@ public class Delete {
 
             String sql = "DELETE FROM employee WHERE id = '4'";
             int effectedRows = statement.executeUpdate(sql);
+
+
             System.out.println("Delete successful" + " - Effected rows : "+ effectedRows);
         } catch (Exception e){
             System.out.println(e.getMessage());

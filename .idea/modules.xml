@@ -3,13 +3,13 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/JavaEE-stack.iml" filepath="$PROJECT_DIR$/JavaEE-stack.iml" />
+      <module fileurl="file://$PROJECT_DIR$/educartappcom/educartappcom.iml" filepath="$PROJECT_DIR$/educartappcom/educartappcom.iml" />
       <module fileurl="file://$PROJECT_DIR$/jdbc/jdbc.iml" filepath="$PROJECT_DIR$/jdbc/jdbc.iml" />
       <module fileurl="file://$PROJECT_DIR$/jsp/jsp.iml" filepath="$PROJECT_DIR$/jsp/jsp.iml" />
       <module fileurl="file://$PROJECT_DIR$/musicStore/musicStore.iml" filepath="$PROJECT_DIR$/musicStore/musicStore.iml" />
       <module fileurl="file://$PROJECT_DIR$/servlets/servlets.iml" filepath="$PROJECT_DIR$/servlets/servlets.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring/spring.iml" filepath="$PROJECT_DIR$/spring/spring.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring/spring1.iml" filepath="$PROJECT_DIR$/spring/spring1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/hibernate/target/target.iml" filepath="$PROJECT_DIR$/hibernate/target/target.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sqlgetway/sqlgetway.iml" filepath="$PROJECT_DIR$/sqlgetway/sqlgetway.iml" />
       <module fileurl="file://$PROJECT_DIR$/webapp/webapp.iml" filepath="$PROJECT_DIR$/webapp/webapp.iml" />
     </modules>
   </component>

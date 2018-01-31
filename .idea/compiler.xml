@@ -6,16 +6,22 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="educartappcom" />
         <module name="jsp" />
         <module name="musicStore" />
         <module name="servlets" />
+        <module name="sqlgetway" />
         <module name="webapp" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="cartapp" target="1.5" />
+      <module name="educartappcom" target="1.5" />
       <module name="jsp" target="1.5" />
       <module name="musicStore" target="1.5" />
       <module name="servlets" target="1.5" />
+      <module name="sqlgetaway" target="1.5" />
+      <module name="sqlgetway" target="1.5" />
       <module name="webapp" target="1.5" />
     </bytecodeTargetLevel>
   </component>
