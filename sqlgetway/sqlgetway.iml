@@ -31,7 +31,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/src/main/webapp/WEB-INF/libs/mysql-connector-java-5.1.44-bin.jar!/" />
+          <root url="jar://$MODULE_DIR$/../webapp/src/main/webapp/WEB-INF/libs/mysql-connector-java-5.1.44-bin.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />

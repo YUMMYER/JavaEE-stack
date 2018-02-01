@@ -17,7 +17,6 @@ public class SQLGateAwayServlets extends HttpServlet {
         String sqlResult = "";
 
         try {
-            Class.forName("com.mysql.jdbc.Driver");
             Connection connection = DbConnection.getConnection();
             Statement statement = connection.createStatement();
             sqlStatement = sqlStatement.trim();
@@ -39,8 +38,6 @@ public class SQLGateAwayServlets extends HttpServlet {
             }
             statement.close();
             connection.close();
-        } catch (ClassNotFoundException e) {
-            System.out.println("Class not found");
         } catch (SQLException e) {
             e.printStackTrace();
         }
