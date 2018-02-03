@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<taglib xmlns="http://java.sun.com/xml/ns/javaee"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-jsptaglibrary_2_1.xsd"
+        version="2.1">
+
+    <display-name>CustomTag Library</display-name>
+    <tlib-version>1.0</tlib-version>
+    <short-name>cs320</short-name>
+    <uri>farruh.sqlgetway.com</uri>
+
+    <tag>
+        <name>Add</name>
+        <tag-class>tags.AddTag</tag-class>
+        <body-content>empty</body-content>
+
+        <attribute>
+            <name>op1</name>
+            <required>true</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+
+        <attribute>
+            <name>op2</name>
+            <required>true</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+
+    </tag>
+
+</taglib>

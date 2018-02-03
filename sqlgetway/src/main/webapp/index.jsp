@@ -7,11 +7,12 @@
 </head>
 <body>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="cs320" uri="farruh.sqlgetway.com" %>
 <c:if test="${sqlStatement == null}">
     <c:set var="sqlStatement" value="Select * from User"/>
 </c:if>
 <h1>The SQL Gateaway</h1>
-
+<cs320:Add op1="12" op2="15"/>
 <p>Enter an SQL statement and click the Execute button.</p>
 <p><b>SQL statement:</b></p>
 
