@@ -9,10 +9,12 @@
   
   <servlet>
     <servlet-name>gateway</servlet-name>
-    <servlet-class>SQLGateAwayServlets</servlet-class>
+    <servlet-class>EmailListServlet</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>gateway</servlet-name>
     <url-pattern>/sqlGateway</url-pattern>
   </servlet-mapping>
+
+
 </web-app>
